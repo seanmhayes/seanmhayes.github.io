@@ -23,7 +23,7 @@ Last week the JACE box was installed, and the necessary cabling run between the 
 
 There is a spare RS485 port on the JACE box. This is to be used in future projects to create a bare bones method of data extraction, e.g. through a Raspberry Pi. At this point it is understood that any device connected to this spare port will be a slave on a separate Modbus network to the compressed air system, but that it will be able to pass requests about the compressed air network to the JACE box and receive data through it.
 
-The proprietary gateway is expected for delivery next week. Once this is installed we can connect it to the JACE box. Supplementary to the JACE box a mobile modem was installed. This will allow dialling into the JACE box remotely via a webpage for data download.
+The proprietary gateway is expected for delivery next week. Once this is installed it can be connected to the JACE box. Supplementary to the JACE box a mobile modem was installed. This will allow dialling into the JACE box remotely via a webpage for data download.
 
 
 [jekyll]:      http://jekyllrb.com
