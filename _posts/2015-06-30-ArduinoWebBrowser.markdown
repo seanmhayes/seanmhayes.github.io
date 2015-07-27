@@ -14,9 +14,9 @@ The Processing sketch then sends each active character to the serial monitor of 
 
 The Arduino sketch is looping continuously, while the Processing sketch has a delay of 0.1 s between sending each active character to the serial monitor. In this way, with six components, it will be a maximum of 0.6 s before the Arduino gets a chance (for 0.1 s) to recognize a new character on the serial monitor, and act on the components accordingly.
 
-All files relevant to this project are uploaded to GitHub at [https://github.com/seanmhayes/IERG_FOTF.git].
+All files relevant to this project are uploaded to GitHub at [here](https://github.com/seanmhayes/IERG_FOTF.git).
 
-![Basic Flow Diagram](Images/WebsiteCommandFlow.png)
+![Basic Flow Diagram](https://github.com/seanmhayes/seanmhayes.github.io/blob/master/Images/WebsiteCommandFlow.png)
 
 
 Jekyll also offers powerful support for code snippets:
