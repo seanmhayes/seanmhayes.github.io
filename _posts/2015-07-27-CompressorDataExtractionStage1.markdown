@@ -6,6 +6,8 @@ categories: modbus
 ---
 Last week the first installation stage of a data extraction solution for our group’s compressed air system test site was completed.
 
+The compressed air system on site is comprised of:
+
 - 30 kW fixed speed (FS) rotary tooth Compressor
 - 37 kW variable speed (VS) rotary tooth Compressor
 - 180 kg heatless dessicant compressed air dryer
