@@ -1,0 +1,15 @@
+Controlling an Arduino through a Web Browser
+
+In our group we are building a model factory that shows how renewable energy may be used intelligently. In order to control LEDs which indicate the state of various components of our model, we are using an Arduino.
+
+To control the Arduino, we want to use a dashboard based in a web browser. The current version of this dashboard is a very basic html web page, running on a Wampserver. Clicking on hyperlinks on the "index.html" webpage sends the desired state of the relevant component to a *.php file specific to that component. The *.php file then sends this state (0, 1, or 2) to a *.txt file where it is stored.
+
+On the machine where the Wampserver is running, a Processing sketch loops through each of the *.txt files where the component states are stored. The Processing sketch then converts each state to a character, where A indicates component 1 is ON, B indicates component 1 is OFF, C indicates component 2 is ON, etc..
+
+The Processing sketch then sends each active character to the serial monitor of an Arduino connected to the same machine. The sketch on the Arduino listens to the serial monitor, and depending on which characters are being sent to it turns on or off LEDs, or in some cases changes the colour of LEDs.
+
+The Arduino sketch is looping continuously, while the Processing sketch has a delay of 0.1 s between sending each active character to the serial monitor. In this way, with six components, it will be a maximum of 0.6 s before the Arduino gets a chance (for 0.1 s) to recognize a new character on the serial monitor, and act on the components accordingly.
+
+All files relevant to this project are uploaded to GitHub at https://github.com/seanmhayes/IERG_FOTF.git.
+
+A basic sketch of the command flow from website to Arduino is shown below.
