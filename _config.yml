@@ -1,8 +1,8 @@
 # Site settings
-title: Compressed Air Performance Management
+title: Industrial Optimisation
 email: sean.m.hayes@umail.ucc.ie
 description: > # this means to ignore newlines until "baseurl:"
-  I am using this blog to document my research into performance management of compressed air systems.
+  This blog documents research into industrial energy efficiency optimisation.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "blog.indoptim.ie" # the base hostname & protocol for your site
 twitter_username: shayes02
