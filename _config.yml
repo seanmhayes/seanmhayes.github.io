@@ -1,17 +1,12 @@
 # Site settings
-title: Clean Blog
-header-img: img/home-bg.jpg
-email: your-email@yourdomain.com
-description: "Write your site description here. It will be used as your sites meta description as well!"
-baseurl: "/startbootstrap-clean-blog-jekyll"
-url: "http://yourdomain.com"
-twitter_username: SBootstrap
-github_username:  davidtmiller
-facebook_username:  IronSummitMedia
+title: Industrial Optimisation
+email: sean.m.hayes@umail.ucc.ie
+description: > # this means to ignore newlines until "baseurl:"
+  This blog documents industrial energy efficiency optimisation research.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "www.indoptim.ie" # the base hostname & protocol for your site
+twitter_username: shayes02
+github_username:  seanmhayes
 
 # Build settings
 markdown: kramdown
-highlighter: pygments
-permalink: pretty
-paginate: 5
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
