@@ -17,6 +17,7 @@ The Arduino sketch is looping continuously, while the Processing sketch has a de
 All files relevant to this project are uploaded to GitHub [here](https://github.com/seanmhayes/IERG_FOTF.git).
 
 ![Basic Flow Diagram](https://github.com/seanmhayes/seanmhayes.github.io/blob/master/Images/WebsiteCommandFlow.png "Logo Title Text 1")
+![My helpful screenshot]({{ seanmhayes.github.io }}/assets/WebsiteCommandFlow.png)
 
 
 Jekyll also offers powerful support for code snippets:
