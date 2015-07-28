@@ -25,6 +25,8 @@ There is a spare RS485 port on the JACE box. This is to be used in future projec
 
 The proprietary gateway is expected for delivery next week. Once this is installed it can be connected to the JACE box. Supplementary to the JACE box a mobile modem was installed. This will allow dialling into the JACE box remotely via a webpage for data download.
 
+Here is an example MathJax inline rendering \\( 1/x^{2} \\), and here is a block rendering: 
+\\[ \frac{1}{n^{2}} \\]
 
 [jekyll]:      http://jekyllrb.com
 [jekyll-gh]:   https://github.com/jekyll/jekyll
