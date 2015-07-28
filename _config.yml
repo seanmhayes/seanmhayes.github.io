@@ -1,26 +1,12 @@
-# Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+# Site settings
+title: Industrial Optimisation
+email: sean.m.hayes@umail.ucc.ie
+description: > # this means to ignore newlines until "baseurl:"
+  This blog documents industrial energy efficiency optimisation research.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://blog.indoptim.ie" # the base hostname & protocol for your site
+twitter_username: shayes02
+github_username:  seanmhayes
 
-# Permalinks
-permalink:        pretty
-relative_permalinks: true
-
-# Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
-baseurl:          /
-
-author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
-
-paginate:         5
-
-# Custom vars
-version:          2.1.0
-
-github:
-  repo:           https://github.com/poole/hyde
+# Build settings
+markdown: kramdown
