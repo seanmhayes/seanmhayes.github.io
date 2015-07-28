@@ -11,7 +11,7 @@ The compressed air system on site is comprised of:
 - 30 kW fixed speed (FS) rotary tooth Compressor
 - 37 kW variable speed (VS) rotary tooth Compressor
 - 180 kg heatless dessicant compressed air dryer
-- 1.5 m3 receiver
+- 1.5 m<sup>3</sup> receiver
 
 From these items of equipment 50 data points are available to be extracted through Modbus. A comprehensive list of these points is available [here]({{ seanmhayes.github.io }}/assets/ModbusPoints.xlsx).
 
